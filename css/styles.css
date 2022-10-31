@@ -409,13 +409,14 @@ img {
   align-items: center;
   border-radius: 50%;
   fill: #afb1b8;
-  transition: fill 250ms;
+  transition: fill 250ms, background-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .boxcard-link:hover {
   fill: #ffffff;
   background-color: #2196f3;
+
 }
 
 .section-logo {
@@ -657,6 +658,8 @@ img {
   overflow: hidden;
   position: relative;
   display: block;
+  transition: box-shadow 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .element-img:hover {
@@ -697,7 +700,7 @@ img {
   opacity: 0;
   transform: translateY(100%);
   background-color: rgba(33, 150, 243, 0.9);
-  transition: transform 2500ms, opacity 250ms; 
+  transition: transform 250ms, opacity 250ms; 
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
